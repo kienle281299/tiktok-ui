@@ -3,8 +3,13 @@
 
 :root {
     --primary: #f32c55;
+    // Default layout
+    --Default-layout-header-height: 60px;
+    --Default-layout-width: 1150px;
 }
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
