@@ -1,88 +1,3 @@
-.wrapper {
-    width: 50%;
-    .add {
-        margin-top: 10px;
-        i {
-            font-family: var(--bs-body-font-family);
-            font-size: 12px;
-        }
-    }
-    .form-control {
-        height: 500px;
-    }
-
-    table {
-        margin-top: 10px;
-        background-color: white;
-        font-size: 12px;
-        text-align: center;
-        height: 100px;
-        .stt,
-        .href,
-        .state {
-            vertical-align: middle;
-        }
-        .time {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            border: none;
-            height: 100%;
-            margin: auto;
-
-            h1 {
-                font-size: 12px;
-                margin: 0;
-            }
-        }
-    }
-}
-
-.hasError {
-    input {
-        border: 1px solid red;
-
-        &:focus {
-            border: 1px solid red;
-        }
-    }
-}
-.hasErrorFrom {
-    input {
-        border: 1px solid red;
-
-        &:focus {
-            border: 1px solid red;
-        }
-    }
-}
-.coppy {
-    cursor: pointer;
-}
-
-.itemPage {
-    padding: 0 10px;
-    color: green;
-    font-size: 20px;
-    cursor: pointer;
-}
-.isLoading {
-    display: block;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/*!
- * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
- * Copyright 2015 Daniel Cardoso <@DanielCardoso>
- * Licensed under MIT
- */
 .la-ball-atom,
 .la-ball-atom > div {
     position: relative;
@@ -93,7 +8,7 @@
 .la-ball-atom {
     display: block;
     font-size: 0;
-    color: #198754;
+    color: #fff;
 }
 .la-ball-atom.la-dark {
     color: #333;
@@ -105,8 +20,8 @@
     border: 0 solid currentColor;
 }
 .la-ball-atom {
-    width: 80px;
-    height: 80px;
+    width: 32px;
+    height: 32px;
 }
 .la-ball-atom > div:nth-child(1) {
     position: absolute;
@@ -115,7 +30,7 @@
     z-index: 1;
     width: 60%;
     height: 60%;
-    background: #ffff;
+    background: #aaa;
     border-radius: 100%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -143,8 +58,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin-top: -5px;
     margin-left: -5px;
     content: '';
@@ -233,8 +148,8 @@
     margin-left: -15px;
 }
 /*
-  * Animations
-  */
+ * Animations
+ */
 @-webkit-keyframes ball-atom-position {
     50% {
         top: 100%;
